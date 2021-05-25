@@ -22,6 +22,8 @@
 ## Contenido
 
 En este repositorio encontrarás todo el material referido al curso práctico para aprender a programar en Visual Basic for Applications dictado en [YouTube](https://www.youtube.com/playlist?list=PLEALJWIWX5iKEI0XC1OPwsKrQrYvIipmu) por [Alejandro Franzoni Gimenez](https://www.alejandrofranzoni.com.ar/).
+  * Capítulo 1 - *Archivo no requerido*
+  * [Capítulo 2](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2002)
 
 ## Modo de Uso
 
