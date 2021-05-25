@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://www.alejandrofranzoni.com.ar/" target="blank"><img src="https://github.com/alefranzoni/vba_curse/blob/main/src/icon.png?raw=true" alt="Alejandro Franzoni Gimenez" width="200"></a>
+  <a href="https://www.alejandrofranzoni.com.ar/" target="_blank"><img src="https://github.com/alefranzoni/vba_curse/blob/main/src/icon.png?raw=true" alt="Alejandro Franzoni Gimenez" width="200"></a>
   <br>
   <br/>Curso Práctico VBA
   <br>
