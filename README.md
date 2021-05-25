@@ -28,7 +28,7 @@ En este repositorio encontrarás todo el material referido al curso práctico pa
 Utilizar el repositorio es muy sencillo, los archivos correspondientes a cada capítulo están organizados por carpetas con su respectivo nombre con el cual podrás identificarlos fácilmente. Tan solo dirígete a la carpeta del capítulo deseado y realiza la descarga de los archivos requeridos.
 
 
-<h4>***Nota:** el directorio `src` solo contiene archivos fuente ajenos al curso como, por ejemplo, el logo utilizado en este archivo, por lo tanto, puede ser ignorado.*</h4>
+***Nota:** el directorio `src` solo contiene archivos fuente ajenos al curso como, por ejemplo, el logo utilizado en este archivo, por lo tanto, puede ser ignorado.*
 
 ---
 
