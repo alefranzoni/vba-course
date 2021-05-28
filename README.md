@@ -33,9 +33,8 @@ Utilizar el repositorio es muy sencillo, los archivos correspondientes a cada ca
 
 ***Nota:** el directorio `src` solo contiene archivos fuente ajenos al curso como, por ejemplo, el logo utilizado en este archivo, por lo tanto, puede ser ignorado.*
 
-## Donaciones
 
-Poder ayudarme a seguir creciendo y crear contenido de calidad invitandome un cafecito! ☕
+## Donaciones
 [![Invitame un café en cafecito.app](https://cdn.cafecito.app/imgs/buttons/button_3.svg)](https://cafecito.app/alefranzoni)
 
 ---
