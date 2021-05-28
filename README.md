@@ -15,7 +15,8 @@
 
 <p align="center">
   <a href="#contenido">Contenido</a> •
-  <a href="#modo-de-uso">Modo de Uso</a>
+  <a href="#modo-de-uso">Modo de Uso</a> •
+  <a href="#donaciones">Donaciones</a>
 </p>
 
 
