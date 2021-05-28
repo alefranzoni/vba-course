@@ -8,7 +8,7 @@
 </h1>
 
 <p align="center">
-  <a href="#">
+  <a href="#donaciones">
     <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
   </a>
 </p>
@@ -31,8 +31,12 @@ En este repositorio encontrarás todo el material referido al curso práctico pa
 
 Utilizar el repositorio es muy sencillo, los archivos correspondientes a cada capítulo están organizados por carpetas con su respectivo nombre con el cual podrás identificarlos fácilmente. Tan solo dirígete a la carpeta del capítulo deseado navegando por el índice o a través del repositorio y realiza la descarga de los archivos requeridos.
 
-
 ***Nota:** el directorio `src` solo contiene archivos fuente ajenos al curso como, por ejemplo, el logo utilizado en este archivo, por lo tanto, puede ser ignorado.*
+
+## Donaciones
+
+Poder ayudarme a seguir creciendo y crear contenido de calidad invitandome un cafecito! ☕
+[![Invitame un café en cafecito.app](https://cdn.cafecito.app/imgs/buttons/button_3.svg)](https://cafecito.app/alefranzoni)
 
 ---
 
