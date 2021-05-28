@@ -40,4 +40,4 @@ Utilizar el repositorio es muy sencillo, los archivos correspondientes a cada ca
 
 ---
 
-> Curso Práctico VBA &nbsp;&middot;&nbsp; [alejandrofranzoni.com.ar](https://www.alejandrofranzoni.com.ar/) 
+> Curso Práctico Visual Basic for Applications &nbsp;&middot;&nbsp; [alejandrofranzoni.com.ar](https://www.alejandrofranzoni.com.ar/) 
