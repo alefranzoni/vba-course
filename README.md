@@ -27,7 +27,7 @@ En este repositorio encontrarás todo el material referido al curso práctico pa
   * Capítulo 1 - *Introducción*
   * [Capítulo 2 - *Formularios*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2002)
   * [Capítulo 3 - *Interactuando con Registros*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2003)
-  * [Capítulo 4 - *Validación de Registros*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2004)
+  * [Capítulo 4 - *Validando Registros*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2004)
 
 ## Modo de Uso
 
