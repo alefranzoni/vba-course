@@ -30,6 +30,7 @@ En este repositorio encontrarás todo el material referido al curso práctico pa
   * [Capítulo 4 - *Validando Registros*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2004)
   * [Capítulo 5 - *Registros Duplicados*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2005)
   * [Capítulo 6 - *Refactoring*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2006)
+  * [Capítulo 7 - *Listbox I*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2007)
 
 ## Modo de Uso
 
