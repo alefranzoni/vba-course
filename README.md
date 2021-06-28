@@ -32,6 +32,7 @@ En este repositorio encontrarás todo el material referido al curso práctico pa
   * [Capítulo 6 - *Refactoring*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2006)
   * [Capítulo 7 - *Listbox I*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2007)
   * [Capítulo 8 - *Listbox II*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2008)
+  * [Capítulo 9 - *Editar Artículos* I](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2009)
 
 ## Modo de Uso
 
