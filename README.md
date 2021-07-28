@@ -34,6 +34,7 @@ En este repositorio encontrarás todo el material referido al curso práctico pa
   * [Capítulo 8 - *Listbox II*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2008)
   * [Capítulo 9 - *Editar Artículos* I](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2009)
   * [Capítulo 10 - *Editar Artículos* II](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2010)
+  * [Capítulo 10 - *Buscar Artículos* I](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2011)
 
 ## Modo de Uso
 
