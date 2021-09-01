@@ -37,6 +37,7 @@ En este repositorio encontrarás todo el material referido al curso práctico pa
   * [Capítulo 11 - *Buscar Artículos* I](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2011)
   * [Capítulo 12 - *Buscar Artículos* II](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2012)
   * [Capítulo 13 - *Eliminar Artículos*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2013)
+  * [Capítulo 14 - *Exportar Artículos*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2014)
 
 ## Modo de Uso
 
