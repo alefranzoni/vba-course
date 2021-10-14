@@ -41,6 +41,7 @@ En este repositorio encontrarás todo el material referido al curso práctico pa
   * [Capítulo 15 - *Importar Artículos I*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2015)
   * [Capítulo 16 - *Importar Artículos II*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2016)
   * [Capítulo 17 - *Correción de IDs*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2017)
+  * [Capítulo 18 - *Main: Busqueda*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2018)
 
 ## Modo de Uso
 
