@@ -45,7 +45,7 @@ En este repositorio encontrarás todo el material referido al curso práctico pa
 
 ## Modo de Uso
 
-Utilizar el repositorio es muy sencillo, los archivos correspondientes a cada capítulo están organizados por carpetas con su respectivo nombre con el cual podrás identificarlos fácilmente. Tan solo dirígete a la carpeta del capítulo deseado navegando por el índice o a través del repositorio y realiza la descarga de los archivos requeridos.
+La utilización del presente repositorio es muy sencilla e intuitiva, los archivos correspondientes a cada capítulo están organizados por carpetas con su respectivo nombre mediante el cual podrás identificarlos fácil y rápidamente. Para realizar una descarga solo tendrás que dirigirte a la carpeta del capítulo deseado, ya sea navegando por el índice o a través del repositorio, y realizar la descarga de los archivos requeridos.
 
 ***Nota:** el directorio `src` solo contiene archivos fuente ajenos al curso como, por ejemplo, el logo utilizado en este archivo, por lo tanto, puede ser ignorado.*
 
@@ -55,4 +55,4 @@ Utilizar el repositorio es muy sencillo, los archivos correspondientes a cada ca
 
 ---
 
-> Curso Práctico Visual Basic for Applications &nbsp;&middot;&nbsp; [alejandrofranzoni.com.ar](https://www.alejandrofranzoni.com.ar/) 
+> Curso Práctico Excel Visual Basic for Applications &nbsp;&middot;&nbsp; [alejandrofranzoni.com.ar](https://www.alejandrofranzoni.com.ar/) 
