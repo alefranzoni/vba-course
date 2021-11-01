@@ -43,6 +43,7 @@ En este repositorio encontrarás todo el material referido al curso práctico pa
   * [Capítulo 17 - *Correción de IDs*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2017)
   * [Capítulo 18 - *Main: Busqueda*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2018)
   * [Capítulo 19 - *Carrito I: Agregar Items*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2019)
+  * [Capítulo 20 - *Carrito II: Cantidades*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2020)
 
 ## Modo de Uso
 
