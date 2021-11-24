@@ -44,6 +44,7 @@ En este repositorio encontrarás todo el material referido al curso práctico pa
   * [Capítulo 18 - *Main: Busqueda*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2018)
   * [Capítulo 19 - *Carrito I: Agregar Items*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2019)
   * [Capítulo 20 - *Carrito II: Cantidades*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2020)
+  * [Capítulo 21 - *Carrito III: Remover Items*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2021)
 
 ## Modo de Uso
 
