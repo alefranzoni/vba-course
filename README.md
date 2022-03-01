@@ -48,6 +48,7 @@ En este repositorio encontrarás todo el material referido al curso práctico pa
   * [Capítulo 22 - *Carrito IV: Precio Final*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2022)
   * [Capítulo 23 - *Main: Registrar Venta I*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2023)
   * [Capítulo 24 - *Main: Registrar Venta II*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2024)
+  * [Capítulo 25 - *Control de Stock*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2025)
 
 ## Modo de Uso
 
