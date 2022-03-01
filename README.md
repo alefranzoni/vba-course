@@ -49,15 +49,15 @@ En este repositorio encontrarás todo el material referido al curso práctico pa
   * [Capítulo 23 - *Main: Registrar Venta I*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2023)
   * [Capítulo 24 - *Main: Registrar Venta II*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2024)
   * [Capítulo 25 - *Control de Stock*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2025)
-  * [Capítulo 26 - *Decimal Separator*]
-  * [Capítulo 27 - *Integrando Base de Datos: CONEXION*]
-  * [Capítulo 28 - *Integrando Base de Datos: INSERT*]
-  * [Capítulo 29 - *Integrando Base de Datos: SELECT*]
-  * [Capítulo 30 - *Integrando Base de Datos: UPDATE*]
-  * [Capítulo 31 - *Integrando Base de Datos: POBLAR TABLA Y DELETE*]
-  * [Capítulo 32 - *Integrando Base de Datos: CASHOUT*]
-  * [Capítulo 33 - *Unificación de Formularios*]
-  * [Capítulo 34 - *Interfaz de Usuario: UI/UX*]
+  * [Capítulo 26 - *Decimal Separator*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2026)
+  * [Capítulo 27 - *Integrando Base de Datos: CONEXION*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2027)
+  * [Capítulo 28 - *Integrando Base de Datos: INSERT*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2028)
+  * [Capítulo 29 - *Integrando Base de Datos: SELECT*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2029)
+  * [Capítulo 30 - *Integrando Base de Datos: UPDATE*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2030)
+  * [Capítulo 31 - *Integrando Base de Datos: POBLAR TABLA Y DELETE*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2031)
+  * [Capítulo 32 - *Integrando Base de Datos: CASHOUT*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2032)
+  * [Capítulo 33 - *Unificación de Formularios*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2033)
+  * [Capítulo 34 - *Interfaz de Usuario: UI/UX*](https://github.com/alefranzoni/vba_curse/tree/main/Cap.%2034)
 
 ## Modo de Uso
 
