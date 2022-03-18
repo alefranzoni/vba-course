@@ -1,0 +1,132 @@
+{GENERAL}
+- Modificar título de cada Page
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+{frmHome}
+- Hacer Public el método navigateToPage
+
+- Modificado evento cmdMenuInventory_Click()
+Private Sub cmdMenuInventory_Click()
+    navigateToPage Me.Navigation.Pages("Inventory").index
+    Inventory.refreshListContent
+End Sub
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+{frmInventory}
+- Eliminado boton de importar (porque en mi caso no lo voy a utilizar, si ustedes le dieron funcionalidad, conservarlo)
+
+- Modificado módulo Inventory, todas las referencias de frmInventory a frmHome
+
+- UserForm_Initialize de frmInventory eliminado y se pasaron los metodos contenidos en él al Initialize del frmHome
+Private Sub UserForm_Initialize()
+    Main.initComboBox
+    Main.setColumnsWidths
+    Inventory.refreshListContent
+    Inventory.setListBoxColumnWidths
+End Sub
+
+- Modificado evento cmdAddItem_Click() para añadir un nuevo artículo
+Private Sub cmdAddItem_Click()
+    navigateToPage Me.Navigation.Pages("AddItem").index
+    Me.cmdAceptar.Caption = "Aceptar"
+    Me.lblTitleAddItem.Caption = Replace(Me.lblTitleAddItem.Caption, "Editar", "Nuevo")
+    AddItem.clearItemContent
+End Sub
+
+- (OPCIONAL) Agrandar tamaño de ListBox
+    
+- Modificado evento cmdEdit_Click() para editar un articulo existente, eliminamos la referencia de frmAddItem para que quede la llamada a la funcion dentro del mismo formulario (openEditMode contenido en frmAddItem)
+Private Sub cmdEdit_Click()
+    ' Validar seleccion
+    If Me.lbxInventory.ListIndex = -1 Then
+        Msg "Debe seleccionar un articulo para continuar", 2
+        Exit Sub
+    End If
+    
+    ' Editar Articulo
+    Dim id As Integer: id = CInt(Me.lbxInventory.List(Me.lbxInventory.ListIndex, 0))
+    Dim nombre As String: nombre = Me.lbxInventory.List(Me.lbxInventory.ListIndex, 1)
+    Dim desc As String: desc = Me.lbxInventory.List(Me.lbxInventory.ListIndex, 2)
+    Dim precio As String: precio = Me.lbxInventory.List(Me.lbxInventory.ListIndex, 3)
+    Dim stock As String: stock = Me.lbxInventory.List(Me.lbxInventory.ListIndex, 4)
+    Dim estado As Boolean: estado = CBool(Me.lbxInventory.List(Me.lbxInventory.ListIndex, 5))
+    
+    openEditMode id, nombre, desc, precio, stock, estado
+End Sub
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+{frmAddItem}
+- Hacer privado el método `openEditMode`. Del mismo eliminar la llamada `.Caption` que ya no la necesitamos, que es la que cambiaba el titulo de la ventana. Cambiamos también la refenrecia del Caption del titulo a lblTitleAddItem (nombre dado al Label del título). Por ultimo eliminamos el .Show que era para mostrar el formulario y agregamos la navegacion hacia la pagina de edicion
+Private Sub openEditMode(ByVal id As Integer, ByVal nombre As String, ByVal desc As String, ByVal precio As String, ByVal stock As String, ByVal estado As Boolean)
+    With Me
+        .txtName.Value = nombre
+        .txtDescription.Value = desc
+        .txtPrice.Value = precio
+        .txtStock.Value = stock
+        .chkActive.Value = estado
+        
+        .lblTitleAddItem.Caption = Replace(.lblTitleAddItem.Caption, "Nuevo", "Editar")
+        .cmdAceptar.Caption = "Guardar"
+        
+        .lblID.Caption = id
+    End With
+    
+    navigateToPage Me.Navigation.Pages("AddItem").index
+End Sub
+
+- (OPCIONAL) Agrandar todos los controles para ocupar mejor el ancho de la pagina
+
+- Modificado módulo AddItem , todas las referencias de frmAddItem a frmHome
+
+- Eliminar evento UserForm_Terminate() porque ya no lo necesitamos
+
+- Modificado metodo cmdAceptar_Click() (Aceptar/Guardar), agregada una llamada para refrescar y actualizar el inventario Inventory.refreshListContent
+Private Sub cmdAceptar_Click()
+    ' Validacion
+    If AddItem.checkValidations() <> True Then Exit Sub
+    
+    Select Case Me.cmdAceptar.Caption
+        Case "Aceptar"
+            Database.insertNewItem Me.txtName.Value, Me.txtDescription.Value, CDbl(Me.txtPrice.Value), CInt(Me.txtStock.Value), Me.chkActive.Value
+        Case "Guardar"
+            Database.updateItem CInt(Me.lblID.Caption)
+    End Select
+    
+    Inventory.refreshListContent
+End Sub
+
+- Modificado evento cmdCancel_Click() (boton cancelar) por la navegacion hasta el inventario nuevamente en lugar de cerrar el formulario
+Private Sub cmdCancel_Click()
+    navigateToPage Me.Navigation.Pages("Inventory").index
+End Sub
+
+{Database}
+- Modificar referencias de frmAddItem por frmHome
+
+- Modificar procedimientos de UPDATE (updateItem) y de INSERT (insertNewItem) y cambiar el Unload frmAddItem por frmHome.navigateToPage
+Public Sub insertNewItem(ByVal name As String, ByVal description As String, ByVal price As Double, ByVal stock As Integer, ByVal status As Boolean)
+    If openDBConnection <> True Then Exit Sub
+    
+    [...]
+    
+    If qMsg("¡Carga realizada con éxito!" & vbNewLine & "¿Desea cargar un nuevo artículo?") Then AddItem.clearItemContent Else frmHome.navigateToPage (frmHome.Navigation.Pages("Inventory").index)
+    Exit Sub
+    
+insert_error:
+    [...]
+End Sub
+Public Sub updateItem(ByVal id As Integer)
+    If qMsg("Esta seguro que desea modificar el articulo?") <> True Then Exit Sub
+    
+    [...]
+    
+    frmHome.navigateToPage frmHome.Navigation.Pages("Inventory").index
+    Msg "El articulo fue modificado con exito", 1, "Articulo Modificado"
+    Exit Sub
+    
+update_error:
+    [...]
+End Sub
