@@ -9,7 +9,6 @@
 ' SAP
 SAP_BIN = "saplogon.exe"
 SAP_GUI_PATH = "C:\Program Files (x86)\SAP\FrontEnd\SapGui\" & SAP_BIN
-
 ' Connections
 lk0_sso = "- LK0 [SSO - SIC Domestico - TESTING PROYECTOS EHP6 SP7]"
 lk0_auth = "LK0 [EHP6 SP7 SIC Domestico - TESTING]"
