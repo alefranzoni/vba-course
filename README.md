@@ -67,10 +67,13 @@ La utilización del presente repositorio es muy sencilla e intuitiva, los archiv
 
 
 ## Donaciones
-_¿Estás disfrutando de este curso? ¡Podés ayudarme mucho a seguir creando este tipo de contenido invitándome un cafecito! ☕_
+_¿Estás disfrutando de este curso? ¡Podés ayudarme mucho a seguir creando este tipo de contenido invitándome un cafecito! ☕ 
+<br/>
+(Si no residís en Argentina, también podes ayudarme a través de PayPal)_
 
 [![Invitame un café en cafecito.app](https://cdn.cafecito.app/imgs/buttons/button_3.svg)](https://cafecito.app/alefranzoni)
-
+<br/>
+<a href="https://www.paypal.com/donate/?hosted_button_id=9LR86UDHEKM3Q" target="_blank"><img src="https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png" alt="Donate with PayPal" width="180"></a>
 ---
 
 > Curso Práctico Excel Visual Basic for Applications &nbsp;&middot;&nbsp; [alejandrofranzoni.com.ar](https://www.alejandrofranzoni.com.ar/) 
